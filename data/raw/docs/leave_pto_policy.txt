@@ -1,0 +1,46 @@
+AcmeSoft Internal Document — Leave & PTO Policy
+Last Updated: August 2025
+
+---
+
+## Purpose
+This policy explains how paid time off (PTO) and leaves of absence work at AcmeSoft, including eligibility, accrual, usage, and approval processes. It ensures coverage while supporting employee wellbeing.
+
+## PTO Accrual & Carryover
+Full-time employees accrue PTO each pay period based on tenure tiers. Up to five unused days may be carried over into the next calendar year; additional carryover requires HR approval for exceptional circumstances.
+Accrual Tiers:
+- 0–2 years: 15 days
+- 3–5 years: 20 days
+- 6+ years: 25 days
+
+## Requesting Time Off
+Submit requests via the HRIS at least two weeks in advance when possible. Managers balance business needs and fairness. Approved PTO is visible on team calendars to coordinate coverage.
+
+## Sick Leave & Medical Appointments
+Sick leave is separate from PTO and may be used for illness, medical appointments, or to care for a family member. For absences over three consecutive days, HR may request a doctor's note.
+
+## Holidays & Floating Days
+AcmeSoft observes company holidays published annually. Employees receive two floating holidays for cultural or personal observances.
+
+## Unpaid Leave & Protected Leave
+Certain leaves (parental, medical, bereavement, jury duty) may be paid or protected according to applicable laws. Contact HR to initiate a case; documentation may be required.
+
+## Travel & PTO During Emergencies
+If emergency events (natural disasters, outages) occur, managers may cancel or reschedule PTO to maintain critical operations, with HR ensuring equitable treatment.
+
+## FAQs
+**Q: Can I cash out unused PTO?**
+A: Only where required by law or specified by local policy.
+
+**Q: What if my PTO request conflicts with team coverage?**
+A: Managers will try to accommodate alternatives and maintain fairness.
+
+## Best Practices Summary
+- Submit PTO requests at least 2 weeks in advance when possible.
+- Coordinate with teammates to maintain coverage during your absence.
+- Use sick leave for health-related time off; provide documentation if requested.
+- Review your accrual balance before booking travel.
+- Record handover notes and on-call swaps before extended leave.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.

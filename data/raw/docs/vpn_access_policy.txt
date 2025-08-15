@@ -1,0 +1,61 @@
+AcmeSoft Internal Document — VPN Access Policy
+Last Updated: August 2025
+
+---
+
+## Purpose & Scope
+This policy defines the requirements for establishing a secure Virtual Private Network (VPN) connection to AcmeSoft's internal network. It applies to employees, contractors, vendors, and interns who access non-public resources from outside company facilities. The objective is to protect confidentiality, integrity, and availability of systems while enabling flexible, remote access.
+
+## Key Definitions
+- **VPN**: An encrypted tunnel between a device and AcmeSoft's network.
+- **Company-managed device**: A laptop or workstation enrolled in AcmeSoft device management.
+- **MFA**: Multi-factor authentication using a password plus a second factor such as TOTP or hardware key.
+
+## Eligibility & Authorization
+VPN access is granted based on job function and least-privilege principles. Requests must be submitted via the IT Service Portal and approved by the employee's manager and the Security team. Access reviews are conducted quarterly to validate active accounts and remove those no longer required.
+
+## Getting Started
+1. Sign into the IT Service Portal.
+2. Request 'Remote VPN Access' and provide business justification.
+3. Install the VPN client for your OS from the Software Catalog.
+4. Register at least two MFA methods (authenticator app + SMS backup).
+5. Reboot and test connectivity to `intranet.acmesoft.local`.
+Windows users must verify that the AcmeSoft Root Certificate is installed. macOS users must grant the VPN system extension permissions. Linux users should confirm `systemd-resolved` is running to properly route split-DNS queries.
+
+## Connection Standards
+All VPN sessions must use AES-256 encryption with TLS 1.2+ and certificate pinning. Split tunneling is disabled by default except for approved engineering roles with documented performance needs. Idle sessions time out after 30 minutes; maximum session duration is 12 hours. Concurrent sessions from multiple devices are blocked to reduce account sharing risk.
+
+## Acceptable Use & Prohibited Actions
+Users must comply with the Acceptable Use Policy while connected to VPN. Activities including unauthorized scanning, torrenting, or hosting services are strictly prohibited. Personal devices may not connect unless enrolled in Mobile Device Management and compliant with baseline security posture.
+
+## Security Controls
+Company-managed devices must have full disk encryption, active endpoint protection, and latest OS patches. The VPN gateway enforces device posture checks on connection and may quarantine non-compliant devices to a remediation VLAN with limited access until issues are resolved.
+
+## Troubleshooting & FAQs
+**Q: I receive 'Cannot reach gateway'.**
+A: Verify internet connectivity, then confirm DNS can resolve the gateway hostname. Flush DNS cache and try an alternate network.
+
+**Q: MFA prompt not appearing?**
+A: Ensure your authenticator app has correct time sync and that push notifications are enabled.
+
+**Q: High latency after connection.**
+A: Disable bandwidth-heavy apps, check for split tunneling policy exceptions, and contact IT with trace logs (`vpnctl --diag`).
+
+## Incident Response & Reporting
+Suspected account compromise or lost/stolen devices must be reported within 1 hour to Security. The Security Operations Center may suspend VPN accounts during investigations. All VPN logs are retained for 365 days and monitored for anomalies, including geovelocity violations and impossible travel patterns.
+
+## Compliance & Audit
+This policy supports SOC 2 CC6, CC7 and ISO 27001 A.8, A.9 controls. Deviations require formal risk acceptance by the CISO. Audit artifacts include access reviews, gateway configurations, and SIEM alert runbooks.
+
+## Appendix: Platform-Specific Notes
+**Windows**: Ensure the 'IKE and AuthIP IPsec Keying Modules' service is running. **macOS**: Approve the system extension under Security & Privacy. **Linux**: Confirm `NetworkManager` plugin integration; if using headless servers, configure `strongSwan` with provided certs.
+
+## Best Practices Summary
+- Always connect to VPN before accessing internal apps from outside the office.
+- Register two MFA methods (authenticator + backup) and test monthly.
+- Keep OS, VPN client, and certificates up to date; reboot after upgrades.
+- Disconnect when you no longer need access to reduce attack surface.
+- Report lost devices or suspicious logins to Security within 1 hour.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.

@@ -1,0 +1,38 @@
+AcmeSoft Internal Document — Data Privacy & Handling Policy
+Last Updated: August 2025
+
+---
+
+## Scope & Principles
+This policy governs how AcmeSoft collects, uses, stores, and disposes of personal data and company-sensitive information. We follow principles of lawfulness, fairness, transparency, purpose limitation, data minimization, accuracy, storage limitation, integrity and confidentiality.
+
+## Roles & Responsibilities
+The Data Protection Officer (DPO) oversees compliance. System Owners maintain records of processing activities. Employees must follow handling standards and report incidents promptly.
+
+## Data Collection & Basis
+Collect only what is necessary for legitimate business purposes, with a clear legal basis (contract, consent, legitimate interest). Provide notices explaining uses and retention.
+
+## Storage & Access
+Store data in approved systems with access controls based on least privilege. Encrypt Restricted data at rest and in transit. Monitor access logs for anomalies.
+
+## Retention & Disposal
+Apply retention schedules; when data is no longer needed, dispose of it securely via deletion, cryptographic erasure, or certified destruction. Suspend deletion during litigation holds.
+
+## Data Subject Rights
+Honor requests to access, rectify, erase, or port personal data where applicable. Verify identity before fulfilling requests and log responses.
+
+## Third Parties & Transfers
+Use processors under data processing agreements with appropriate safeguards. Conduct transfer impact assessments for cross-border data flows where required.
+
+## Incident Management
+Report potential breaches within one hour. The Incident Response Plan outlines containment, notification, and post-incident review steps.
+
+## Best Practices Summary
+- Collect only what you need; document purpose and legal basis.
+- Apply least‑privilege access and review regularly.
+- Encrypt sensitive data at rest and in transit; log and monitor access.
+- Follow retention schedules; securely delete data when no longer needed.
+- Verify identity before fulfilling data subject requests.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.

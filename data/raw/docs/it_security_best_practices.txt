@@ -1,0 +1,32 @@
+AcmeSoft Internal Document — IT Security Best Practices
+Last Updated: August 2025
+
+---
+
+## Passwords & MFA
+Use unique, complex passwords and store them in the approved password manager. Rotate passwords if you suspect compromise. MFA is mandatory for all core systems and remote access.
+
+## Patching & Endpoint Protection
+Enable automatic OS and application updates. Endpoint protection must remain enabled and report-in at least daily. Devices missing updates beyond 14 days may be quarantined.
+
+## Phishing & Social Engineering
+Be skeptical of unsolicited emails, especially those requesting credentials or money transfers. Verify via a separate channel. Report suspected phishing in the email client using the Phish Alert button.
+
+## Data Classification & Handling
+Label data according to classification: Public, Internal, Confidential, Restricted. Store Restricted data only in approved repositories with encryption at rest and in transit.
+
+## Secure Development
+Developers must follow secure coding standards, run SAST/DAST scans, and remediate high findings before release. Secrets must not be committed to repos; use the secrets manager.
+
+## Incident Reporting
+Report security incidents within one hour to Security Operations. Preserve evidence and do not attempt to investigate beyond capturing basic details.
+
+## Best Practices Summary
+- Use a password manager and enable MFA everywhere possible.
+- Patch promptly; devices missing updates may be quarantined.
+- Verify sender identity for unusual requests; report phishing.
+- Classify data correctly and store Restricted data only in approved systems.
+- Remove secrets from code; use the secrets manager for credentials.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.

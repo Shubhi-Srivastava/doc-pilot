@@ -1,0 +1,29 @@
+AcmeSoft Internal Document — Internal Communication Standards
+Last Updated: August 2025
+
+---
+
+## Principles
+Communicate with clarity, kindness, and context. Default to transparency when appropriate, and document decisions in durable places.
+
+## Channels
+Slack: real-time collaboration; Email: formal approvals; Confluence: documentation; Jira: work tracking; Zoom/Meet: video conferencing. Choose the channel that matches the urgency and permanence of the message.
+
+## Writing Guidelines
+Lead with the action or decision, then provide background. Use headings, lists, and short paragraphs. Avoid jargon and unexplained acronyms. Include owners and due dates.
+
+## Meetings
+Send agendas 24 hours in advance, start on time, and end early when possible. Capture notes and action items; assign owners. Prefer asynchronous updates to recurring status meetings.
+
+## Response Time Expectations
+Slack during local working hours: within 2 hours. Email: within 1 business day. Escalations: use the on-call rotation or phone as documented.
+
+## Best Practices Summary
+- Lead with the decision or ask; add context below.
+- Use the right channel for urgency and permanence (Slack vs. email vs. docs).
+- Write clearly with headings and bullets; avoid unexplained acronyms.
+- Share agendas 24h in advance and capture actions with owners and dates.
+- Default to transparency when appropriate and document decisions.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.

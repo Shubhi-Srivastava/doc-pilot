@@ -1,0 +1,35 @@
+AcmeSoft Internal Document — New Employee Onboarding Guide
+Last Updated: August 2025
+
+---
+
+## Welcome
+Welcome to AcmeSoft! This guide helps you navigate your first 90 days: access, tools, culture, and expectations. Your onboarding buddy will help you ramp up and connect with the team.
+
+## Day 1 Checklist
+- Pick up laptop and badge (if local).
+- Log into email, Slack, HRIS, and the VPN portal.
+- Complete security training and acknowledge key policies.
+- Attend team standup and meet your manager.
+
+## Week 1 Goals
+Set up development environment, read engineering handbook pages, and pair with a teammate to ship a small change. Add your bio to the team page and schedule intro 1:1s.
+
+## First 30 Days
+Shadow on-call, learn the incident process, and ship a meaningful feature behind a flag. Create or update documentation to reflect what you learned. Participate in a retrospective.
+
+## First 60–90 Days
+Own a small project end-to-end, propose measurable success criteria, and present outcomes at the team demo. Identify a mentor and create a growth plan with your manager.
+
+## FAQs
+**Q: Where are architecture diagrams?** In the Engineering Wiki. **Q: How do I request hardware?** Submit an IT ticket under 'Procurement'.
+
+## Best Practices Summary
+- Complete security training and policy acknowledgments in Week 1.
+- Pair with teammates and ship a small change in the first two weeks.
+- Keep a running doc of questions and answers; contribute to the wiki.
+- Schedule recurring 1:1s and set measurable 30/60/90‑day goals.
+- Ask for feedback early and often; iterate visibly.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.

@@ -1,0 +1,51 @@
+AcmeSoft Internal Document — Remote Work Guidelines
+Last Updated: August 2025
+
+---
+
+## Overview
+AcmeSoft supports hybrid and fully remote work arrangements that prioritize outcomes over presence. These guidelines outline expectations for availability, communication, ergonomics, and security.
+
+## Eligibility & Agreement
+Remote work must be approved by managers and HR. Employees sign a Remote Work Agreement acknowledging responsibilities for workspace safety, data privacy, and equipment care. International remote work requires legal review for tax and labor compliance.
+
+## Availability & Core Hours
+Core collaboration hours are 9:00–12:00 and 13:00–17:00 in the employee's home time zone, unless the team defines alternatives. Flexible schedules are supported; publish your working hours in your calendar and Slack profile.
+
+## Communication Standards
+- Use Slack for quick questions; prefer threads to keep context.
+- Use email for formal approvals and decisions.
+- Record key decisions in Confluence pages linked to Jira epics.
+- For meetings, share agendas 24 hours in advance and circulate notes afterward.
+
+## Productivity & Outcomes
+Set weekly goals with your manager and track progress in the team dashboard. Prefer asynchronous updates (status docs, short Loom videos) to reduce meeting load. Use focus blocks and disable notifications when doing deep work.
+
+## Workspace & Ergonomics
+Employees should maintain a safe, ergonomic workspace with appropriate lighting and seating. The company offers a one-time stipend for monitors, chairs, and peripherals. Noise-canceling headsets are recommended for calls.
+
+## Security Requirements
+Use a company-managed device, enable full disk encryption, and connect via VPN when accessing internal services. Lock screens when away, store printed materials securely, and avoid discussing sensitive information in public areas.
+
+## Travel & Temporary Relocation
+Temporary remote work from a different region must be cleared with HR and Tax. Some tools may be geo-restricted due to compliance obligations; contact IT before travel.
+
+## Performance & Feedback
+Managers provide regular feedback through 1:1s and quarterly reviews. If performance issues arise, a formal improvement plan may be used with clear, measurable objectives.
+
+## FAQs
+**Q: Can I work from another country for three months?**
+A: Possibly—obtain HR/TAX approval first.
+
+**Q: Who pays for internet?**
+A: Employees cover standard home internet; submit receipts only for business-required upgrades approved by your manager.
+
+## Best Practices Summary
+- Publish your working hours on your calendar and Slack profile.
+- Prefer async updates (docs, short videos) over extra meetings.
+- Use a dedicated, ergonomic workspace and lock your screen when away.
+- Connect via VPN for any internal resources; avoid public Wi‑Fi without it.
+- Summarize decisions in writing and share with stakeholders.
+
+## Revision History
+v1.0 — Initial publication. v1.1 — Clarified responsibilities. v1.2 — Updated examples and FAQs. v1.3 — Added audit references.
